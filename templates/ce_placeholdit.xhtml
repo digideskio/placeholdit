@@ -1,0 +1,9 @@
+
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<div class="image_container"<?php if ($this->margin): ?> style="<?php echo $this->margin; ?>"<?php endif; ?>>
+<img src="http://placehold.it/<?php echo $this->phit_width;?><?php if($this->phit_height): ?>x<?php echo $this->phit_height; ?><?php endif; ?>/<?php echo $this->phit_foreground; ?>/<?php echo $this->phit_background; ?>&text=<?php echo str_replace(' ', '+', $this->phit_text); ?>" />
+<?php if ($this->caption): ?>
+<div class="caption" style="width:<?php echo $this->arrSize[0]; ?>px"><?php echo $this->caption; ?></div>
+<?php endif; ?>
+</div>
+</div>
