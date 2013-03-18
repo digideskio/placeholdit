@@ -29,7 +29,7 @@
 
 
 $GLOBALS['TL_DCA']['tl_content']['palettes']['__selector__'][] = 'phit_colors';
-$GLOBALS['TL_DCA']['tl_content']['palettes']['placeholdit']     = '{type_legend},type,phit_text,phit_width,phit_height,phit_colors;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['placeholdit']     = '{type_legend},type,phit_text,phit_width,phit_height,phit_link,phit_colors;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID';
 $GLOBALS['TL_DCA']['tl_content']['subpalettes']['phit_colors'] = 'phit_foreground,phit_background';
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['phit_text'] = array
@@ -51,6 +51,17 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['phit_height'] = array
 	'label'                   => &$GLOBALS['TL_LANG']['tl_content']['phit_height'],
 	'inputType'               => 'text',
 	'eval'                    => array('maxlength'=>4, 'rgxp'=>'digit', 'tl_class'=>'w50')
+);
+
+$GLOBALS['TL_DCA']['tl_content']['fields']['phit_link'] = array
+(
+	'label'                   => &$GLOBALS['TL_LANG']['tl_content']['phit_link'],
+	'inputType'               => 'text',
+	'eval'					  => array('rgxp'=>'url', 'decodeEntities'=>true, 'maxlength'=>255, 'tl_class'=>'w50 wizard'),
+	'wizard' => array
+	(
+		array('tl_content', 'pagePicker')
+	)
 );
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['phit_colors'] = array

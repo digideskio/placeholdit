@@ -15,6 +15,7 @@ CREATE TABLE `tl_content` (
   `phit_text` varchar(255) NOT NULL default '',
   `phit_width` varchar(64) NOT NULL default '',
   `phit_height` varchar(64) NOT NULL default '',
+  `phit_link` varchar(255) NOT NULL default '',
   `phit_colors` char(1) NOT NULL default '',
   `phit_foreground` varchar(6) NOT NULL default '',
   `phit_background` varchar(6) NOT NULL default '',

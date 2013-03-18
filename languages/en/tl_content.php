@@ -30,6 +30,7 @@
 $GLOBALS['TL_LANG']['tl_content']['phit_text']			= array('Placeholdertext', 'Insert a text for the placehold.it image');
 $GLOBALS['TL_LANG']['tl_content']['phit_width']			= array('Width', 'Enter the width of the image');
 $GLOBALS['TL_LANG']['tl_content']['phit_height']		= array('Height', 'Enter the height of the image. If empty, the width will be taken instead.');
-$GLOBALS['TL_LANG']['tl_content']['phit_colors']		= 'Fore- & Backgroundcolors';
+$GLOBALS['TL_LANG']['tl_content']['phit_link']			= array('Imagelink', 'Choose a contao site or enter a external url.');
+$GLOBALS['TL_LANG']['tl_content']['phit_colors']		= array('Fore- & Backgroundcolors', 'Change the default colors.');
 $GLOBALS['TL_LANG']['tl_content']['phit_foreground']	= array('Choose foregroundcolor', 'Enter the foregroundcolor.');
 $GLOBALS['TL_LANG']['tl_content']['phit_background']	= array('Choose backgroundcolor', 'Enter the backgroundcolor.');

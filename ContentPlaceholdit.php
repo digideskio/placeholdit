@@ -50,6 +50,9 @@ class ContentPlaceholdit extends ContentElement
 		{
 			$this->Template->phit_height = '';
 		}
+		if($this->phit_link) {
+			$this->Template->phit_link = $this->phit_link;
+		}
 		if ($this->phit_colors)
 		{
 			$this->Template->phit_foreground = $this->phit_foreground;

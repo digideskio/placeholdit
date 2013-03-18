@@ -30,6 +30,7 @@
 $GLOBALS['TL_LANG']['tl_content']['phit_text']			= array('Platzhaltertext einfügen', 'Fügt einen Text auf dem Platzhalterbild ein. Hilfreich zur Referenz bei Absprachen bzw. zum Austauschen der richtigen Bilder.');
 $GLOBALS['TL_LANG']['tl_content']['phit_width']			= array('Breite einfügen', 'Hier die Breite des Platzhalterbilds eintragen.');
 $GLOBALS['TL_LANG']['tl_content']['phit_height']		= array('Höhe einfügen', 'Tragen sie hier die optionale Höhe ein. Wenn leer, wird ein quadratisches Bild generiert.');
-$GLOBALS['TL_LANG']['tl_content']['phit_colors']		= 'Vorder- & Hintergrundfarben';
+$GLOBALS['TL_LANG']['tl_content']['phit_link']			= array('Bildlink', 'Wählen sie eine Contaoseite oder tragen sie einen externen Link ein.');
+$GLOBALS['TL_LANG']['tl_content']['phit_colors']		= array('Vorder- & Hintergrundfarben', 'Sollen die Farben selbst bestimmt werden können?');
 $GLOBALS['TL_LANG']['tl_content']['phit_foreground']	= array('Vordergrundfarbe wählen', 'Tragen sie hier die Vordergrundfarbe ein.');
 $GLOBALS['TL_LANG']['tl_content']['phit_background']	= array('Hintergrundfarbe wählen', 'Tragen sie hier die Hintergrundfarbe ein.');
